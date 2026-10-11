@@ -1,0 +1,33 @@
+[main 99cf621] Complete Lab 03 CSS fundamentals exercises and browser evidence
+ 33 files changed, 1125 insertions(+), 22 deletions(-)
+ create mode 100644 css-lab/index.html
+ create mode 100644 css-lab/nature.svg
+ create mode 100644 css-lab/script.js
+ create mode 100644 css-lab/style.css
+ create mode 100644 evidence/lab03/browser-checks.json
+ create mode 100644 evidence/lab03/browser-checks.txt
+ create mode 100644 evidence/lab03/fixed-after.png
+ create mode 100644 evidence/lab03/fixed-before.png
+ create mode 100644 evidence/lab03/fixed-position.json
+ create mode 100644 evidence/lab03/format-fixes.txt
+ create mode 100644 evidence/lab03/format.txt
+ create mode 100644 evidence/lab03/lab-status.md
+ create mode 100644 evidence/lab03/lint.txt
+ create mode 100644 evidence/lab03/navbar.png
+ create mode 100644 evidence/lab03/responsive-280.png
+ create mode 100644 evidence/lab03/responsive-350.png
+ create mode 100644 evidence/lab03/responsive-500.png
+ create mode 100644 evidence/lab03/responsive-800.png
+ create mode 100644 evidence/lab03/task-1.png
+ create mode 100644 evidence/lab03/task-10.png
+ create mode 100644 evidence/lab03/task-2.png
+ create mode 100644 evidence/lab03/task-3.png
+ create mode 100644 evidence/lab03/task-4.png
+ create mode 100644 evidence/lab03/task-5.png
+ create mode 100644 evidence/lab03/task-6.png
+ create mode 100644 evidence/lab03/task-7.png
+ create mode 100644 evidence/lab03/task-8.png
+ create mode 100644 evidence/lab03/tests.txt
+ create mode 100644 evidence/lab03/transition-after.png
+ create mode 100644 evidence/lab03/transition-before.png
+ create mode 100644 evidence/lab03/verification-run.txt

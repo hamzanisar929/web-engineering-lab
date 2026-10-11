@@ -41,3 +41,7 @@ Repository: https://github.com/hamzanisar929/web-engineering-lab
 
 Reference: Lab 03 CSS Fundamentals Lab Manual, Sir Syed CASE Institute of
 Technology, Islamabad. Prepared with assistance from OpenAI Codex.
+
+## Lab 03 report
+
+[Download the Lab 03 PDF](<reports/Muhammad Hamza Lab 03.pdf>). The report contains the task questions, screenshots, browser results and GitHub evidence.
