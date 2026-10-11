@@ -1,0 +1,2 @@
+axe DevTools extension scan: 0 issues
+Chrome DevTools Lighthouse Accessibility: 100

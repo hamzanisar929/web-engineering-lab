@@ -1,0 +1,4 @@
+Chrome DevTools Lighthouse Accessibility: 100/100
+Additional Lighthouse CLI Accessibility: 100/100
+Audited URL: http://127.0.0.1:5500/Lab%202/web-engineering-lab/public/index.html
+Lighthouse CLI version: 13.5.0

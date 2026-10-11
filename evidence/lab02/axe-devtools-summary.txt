@@ -1,0 +1,43 @@
+DevTools
+axe-core
+Link opens in a new window
+ 4.13.0
+Sign up
+/Sign in
+start new scan
+Options
+Overview
+Guided Tests
+Test Name
+Save Test
+Test URL
+http://127.0.0.1:5500/Lab%202/web-engineering-lab/public/index.html
+Re-run scan
+TOTAL ISSUES
+0
+Automatic Issues
+0
+Guided Issues
+0
+Manual Issues
+0
+Critical
+0
+Serious
+0
+Moderate
+0
+Minor
+0
+Best Practices:
+OFF
+WCAG 2.1 AA
+Export
+Total Issues: 0
+You have (0) automatic issues, nice!
+
+Catch even more accessibility issues with semi-automated guided tests.
+
+TRY FOR FREE
+Skip to
+top

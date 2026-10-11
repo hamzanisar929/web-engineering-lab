@@ -1,0 +1,93 @@
+{
+  "title": "Web Engineering Lab 02 | Muhammad Hamza",
+  "greeting": "Hello, World!",
+  "landmarks": {
+    "header": 1,
+    "nav": 1,
+    "main": 1,
+    "footer": 1
+  },
+  "headingOutline": [
+    "H1: Hello, World!",
+    "H2: Office Hours",
+    "H2: Send Feedback"
+  ],
+  "table": {
+    "caption": "\n            Weekly office hours\n          ",
+    "colHeaders": 3,
+    "timeValues": [
+      {
+        "text": "10:00",
+        "datetime": "10:00"
+      },
+      {
+        "text": "11:00",
+        "datetime": "11:00"
+      },
+      {
+        "text": "13:00",
+        "datetime": "13:00"
+      },
+      {
+        "text": "14:00",
+        "datetime": "14:00"
+      },
+      {
+        "text": "11:00",
+        "datetime": "11:00"
+      },
+      {
+        "text": "12:00",
+        "datetime": "12:00"
+      }
+    ]
+  },
+  "fields": [
+    {
+      "id": "name",
+      "type": "text",
+      "labels": [
+        "Name (required)"
+      ],
+      "required": true,
+      "description": null
+    },
+    {
+      "id": "email",
+      "type": "email",
+      "labels": [
+        "Email (required)"
+      ],
+      "required": true,
+      "description": "email-hint"
+    },
+    {
+      "id": "topic-lab",
+      "type": "radio",
+      "labels": [
+        "Lab content"
+      ],
+      "required": false,
+      "description": null
+    },
+    {
+      "id": "topic-other",
+      "type": "radio",
+      "labels": [
+        "Something else"
+      ],
+      "required": false,
+      "description": null
+    },
+    {
+      "id": "message",
+      "type": "textarea",
+      "labels": [
+        "Message (required)"
+      ],
+      "required": true,
+      "description": null
+    }
+  ],
+  "redundantRoles": 0
+}

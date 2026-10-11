@@ -1,0 +1,188 @@
+[
+  {
+    "key": "Tab",
+    "focus": {
+      "id": "",
+      "tag": "A",
+      "text": "Skip to main content",
+      "href": "#main-content",
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Tab",
+    "focus": {
+      "id": "",
+      "tag": "A",
+      "text": "Office Hours",
+      "href": "#schedule",
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Tab",
+    "focus": {
+      "id": "",
+      "tag": "A",
+      "text": "Send Feedback",
+      "href": "#feedback",
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Tab",
+    "focus": {
+      "id": "name",
+      "tag": "INPUT",
+      "text": "",
+      "href": null,
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Tab",
+    "focus": {
+      "id": "email",
+      "tag": "INPUT",
+      "text": "",
+      "href": null,
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Tab",
+    "focus": {
+      "id": "topic-lab",
+      "tag": "INPUT",
+      "text": "",
+      "href": null,
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Tab",
+    "focus": {
+      "id": "message",
+      "tag": "TEXTAREA",
+      "text": "",
+      "href": null,
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Tab",
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Submit feedback",
+      "href": null,
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Tab",
+    "result": "Focus leaves the last control. No trap."
+  },
+  {
+    "key": "Shift+Tab",
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Submit feedback",
+      "href": null,
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Shift+Tab",
+    "focus": {
+      "id": "message",
+      "tag": "TEXTAREA",
+      "text": "",
+      "href": null,
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Shift+Tab",
+    "focus": {
+      "id": "topic-lab",
+      "tag": "INPUT",
+      "text": "",
+      "href": null,
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Shift+Tab",
+    "focus": {
+      "id": "email",
+      "tag": "INPUT",
+      "text": "",
+      "href": null,
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Shift+Tab",
+    "focus": {
+      "id": "name",
+      "tag": "INPUT",
+      "text": "",
+      "href": null,
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Shift+Tab",
+    "focus": {
+      "id": "",
+      "tag": "A",
+      "text": "Send Feedback",
+      "href": "#feedback",
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Shift+Tab",
+    "focus": {
+      "id": "",
+      "tag": "A",
+      "text": "Office Hours",
+      "href": "#schedule",
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Shift+Tab",
+    "focus": {
+      "id": "",
+      "tag": "A",
+      "text": "Skip to main content",
+      "href": "#main-content",
+      "outline": "rgb(7, 91, 227) solid 3px"
+    }
+  },
+  {
+    "key": "Enter",
+    "result": "Skip link moves focus to main-content."
+  },
+  {
+    "key": "ArrowDown and Space",
+    "result": "The second topic radio button is focused and selected."
+  },
+  {
+    "key": "Enter",
+    "result": "The submit button completes the local form and announces its status."
+  },
+  {
+    "key": "Enter on empty form",
+    "result": "Native required validation focuses Name."
+  },
+  {
+    "result": "aria-current changes to Send Feedback when that section enters view."
+  },
+  {
+    "result": "aria-current changes back to Office Hours at the top."
+  }
+]

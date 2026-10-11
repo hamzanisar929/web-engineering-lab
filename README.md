@@ -1,42 +1,32 @@
-# Web Engineering Lab 1
+# Web Engineering Lab 02
 
-A minimal HTML, CSS, and JavaScript project. `greet(name)` returns
-`Hello, {name}!` and updates the page heading to **Hello, World!**.
+Muhammad Hamza · 2330-0068 · CASE Islamabad
 
-## Run
+This page extends the Lab 1 greeting with semantic landmarks, an Office Hours
+table, accessible SVGs and a labelled feedback form. The form is a local demo;
+it validates required fields and confirms completion without sending messages.
+
+## Run and check
 
 ```sh
-npm install
+npm ci
 npm start
-```
-
-Open http://localhost:3000. Alternatively, open `public/index.html` in
-Visual Studio Code and select **Open with Live Server** (port 5500).
-
-## Check
-
-```sh
 node --test
 npm run lint
 npm run format
 ```
 
-The test imports the actual function from `public/script.js`. ESLint checks
-JavaScript for undefined and unused variables. Prettier checks formatting. To fix formatting, run `npx prettier --write .`.
+Open http://localhost:3000 or open `public/index.html` with VS Code Live Server.
+The skip link appears when focused. Navigation identifies the section in view.
+Name, email and message are required. The email hint is associated with its field.
 
-## Layout
+## Evidence
 
-- `public/`: page and assets
-- `tests/`: Node built-in test runner tests
-- `evidence/`: saved command output, screenshots, and completion status
+Lab 02 evidence is saved in `evidence/lab02/`. It includes the page screenshots,
+keyboard checks, accessibility audit results and GitHub submission confirmation.
+Lab 01 evidence is retained in `evidence/`.
 
-See `evidence/lab-status.md` for verified tasks and any outstanding requirements.
+Repository: https://github.com/hamzanisar929/web-engineering-lab
 
-## Repository
-
-https://github.com/hamzanisar929/web-engineering-lab
-
-## Acknowledgement
-
-Prepared with assistance from OpenAI Codex, following the supplied Lab 01
-Statement. Review the code and commands before your viva.
+Reference: the supplied Lab 02 Statement, Sir Syed CASE Institute of Technology.
+Prepared with assistance from OpenAI Codex.

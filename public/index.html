@@ -3,15 +3,192 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Engineering Lab 1</title>
+    <meta
+      name="description"
+      content="Web Engineering Lab 02: office hours and an accessible feedback form."
+    />
+    <title>Web Engineering Lab 02 | Muhammad Hamza</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <main>
-      <p class="label">Web Engineering · Lab 1</p>
-      <h1 id="greeting">Loading greeting…</h1>
-      <p>A minimal page built with HTML, CSS, and JavaScript.</p>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container">
+        <p class="eyebrow">CASE Islamabad · Web Engineering · Lab 02</p>
+        <h1 id="greeting">Loading greeting…</h1>
+        <p class="intro">Office hours and feedback, open to everyone.</p>
+        <nav>
+          <ul>
+            <li>
+              <a href="#schedule" aria-current="location">Office Hours</a>
+            </li>
+            <li><a href="#feedback">Send Feedback</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="container" tabindex="-1">
+      <section id="schedule" class="panel">
+        <p class="eyebrow">01 / Plan your visit</p>
+        <h2>Office Hours</h2>
+        <p class="section-intro">
+          A sample weekly schedule for questions about lab work.
+        </p>
+        <figure class="location">
+          <svg
+            role="img"
+            aria-labelledby="pin-title"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <title id="pin-title">Location pin</title>
+            <path
+              d="M12 21s7-6.4 7-12a7 7 0 1 0-14 0c0 5.6 7 12 7 12Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            />
+            <circle
+              cx="12"
+              cy="9"
+              r="2.5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            />
+          </svg>
+          <figcaption>All office hours are held in Room 214.</figcaption>
+        </figure>
+        <table>
+          <caption>
+            Weekly office hours
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Day</th>
+              <th scope="col">Time</th>
+              <th scope="col">Instructor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Monday</th>
+              <td>
+                <time datetime="10:00">10:00</time> to
+                <time datetime="11:00">11:00</time>
+              </td>
+              <td>Lab Engineer</td>
+            </tr>
+            <tr>
+              <th scope="row">Wednesday</th>
+              <td>
+                <time datetime="13:00">13:00</time> to
+                <time datetime="14:00">14:00</time>
+              </td>
+              <td>Lab Engineer</td>
+            </tr>
+            <tr>
+              <th scope="row">Friday</th>
+              <td>
+                <time datetime="11:00">11:00</time> to
+                <time datetime="12:00">12:00</time>
+              </td>
+              <td>Lab Engineer</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <svg
+        class="divider"
+        aria-hidden="true"
+        focusable="false"
+        width="120"
+        height="24"
+        viewBox="0 0 120 24"
+      >
+        <path d="M0 12h47m26 0h47" stroke="currentColor" />
+        <circle cx="60" cy="12" r="4" fill="currentColor" />
+      </svg>
+
+      <section id="feedback" class="panel">
+        <p class="eyebrow">02 / Share your thoughts</p>
+        <h2>Send Feedback</h2>
+        <p class="section-intro">
+          Tell us what helped and what could be clearer.
+        </p>
+        <p class="form-note">
+          Fields marked required must be completed. This form is a local lab
+          demo.
+        </p>
+        <form id="feedback-form">
+          <div class="field">
+            <label for="name"
+              >Name <span class="requirement">(required)</span></label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="email"
+              >Email <span class="requirement">(required)</span></label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              aria-describedby="email-hint"
+              required
+            />
+            <p class="hint" id="email-hint">
+              Use a valid email address, such as name@example.com.
+            </p>
+          </div>
+          <fieldset>
+            <legend>Topic</legend>
+            <div class="radio-option">
+              <input
+                type="radio"
+                id="topic-lab"
+                name="topic"
+                value="lab"
+                checked
+              />
+              <label for="topic-lab">Lab content</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="topic-other" name="topic" value="other" />
+              <label for="topic-other">Something else</label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="message"
+              >Message <span class="requirement">(required)</span></label
+            >
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Submit feedback</button>
+          <p id="form-status" role="status"></p>
+        </form>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Muhammad Hamza · 2330-0068</p>
+        <address>
+          For help with this lab, contact your instructor at CASE Islamabad.
+        </address>
+      </div>
+    </footer>
   </body>
 </html>

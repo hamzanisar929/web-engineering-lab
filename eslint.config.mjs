@@ -8,6 +8,7 @@ export default [
       ecmaVersion: "latest",
       globals: {
         document: "readonly",
+        window: "readonly",
         module: "readonly",
         require: "readonly",
       },

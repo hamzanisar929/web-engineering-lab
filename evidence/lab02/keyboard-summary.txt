@@ -1,0 +1,9 @@
+PASS: eight forward Tab stops in the expected order
+PASS: reverse traversal with Shift + Tab
+PASS: no keyboard trap
+PASS: visible focus outlines
+PASS: Enter activates the skip link and focuses main
+PASS: arrow keys and Space select a Topic radio option
+PASS: Enter submits a valid local form
+PASS: required fields block an empty submission
+PASS: aria-current follows the visible section
