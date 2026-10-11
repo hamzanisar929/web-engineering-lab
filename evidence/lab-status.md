@@ -19,4 +19,5 @@ Format on Save is enabled with Prettier as the default formatter in
 
 This repository uses a separate SSH key for hamzanisar929 and the Git author
 hamzanisar929 <hamzanisar929@users.noreply.github.com>. The existing global Git
-identity and abdullahdhillu key were preserved.
+identity and abdullahdhillu key were preserved. GitHub SSH now selects the new
+key; the previous key remains usable via the github-abdullahdhillu SSH alias.

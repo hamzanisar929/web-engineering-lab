@@ -1,0 +1,34 @@
+[main (root-commit) a6cdfdc] Complete Lab 01 development environment and greeting page
+ 25 files changed, 2301 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .prettierignore
+ create mode 100644 .vscode/extensions.json
+ create mode 100644 .vscode/settings.json
+ create mode 100644 README.md
+ create mode 100644 eslint.config.mjs
+ create mode 100644 evidence/browser-verification.txt
+ create mode 100644 evidence/extensions-install.txt
+ create mode 100644 evidence/extensions.txt
+ create mode 100644 evidence/format-fixes.txt
+ create mode 100644 evidence/format.txt
+ create mode 100644 evidence/greeting-live-server.png
+ create mode 100644 evidence/lab-status.md
+ create mode 100644 evidence/lint.txt
+ create mode 100644 evidence/npm-init.txt
+ create mode 100644 evidence/npm-install.txt
+ create mode 100644 evidence/serve.txt
+ create mode 100644 evidence/tests.txt
+ create mode 100644 evidence/tool-versions.txt
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/index.html
+ create mode 100644 public/script.js
+ create mode 100644 public/styles.css
+ create mode 100644 tests/greet.test.js
+commit a6cdfdcbf795e09ad0dd0c24ad48932fb3e3c87a
+Author:     hamzanisar929 <hamzanisar929@users.noreply.github.com>
+AuthorDate: Sun Oct 11 10:24:27 2026 +0500
+Commit:     hamzanisar929 <hamzanisar929@users.noreply.github.com>
+CommitDate: Sun Oct 11 10:24:27 2026 +0500
+
+    Complete Lab 01 development environment and greeting page
