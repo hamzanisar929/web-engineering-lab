@@ -1,0 +1,4 @@
+Live Server URL: http://127.0.0.1:5500/Lab%201/web-engineering-lab/public/index.html
+Browser heading: Hello, World!
+greet("World"): Hello, World!
+Screenshot: greeting-live-server.png

@@ -1,0 +1,8 @@
+Installing extensions...
+Extension 'dbaeumer.vscode-eslint' v3.0.34 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'dbaeumer.vscode-eslint@1.2.3'.
+Extension 'esbenp.prettier-vscode' v12.4.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'esbenp.prettier-vscode@1.2.3'.
+Extension 'ritwickdey.liveserver' v5.7.10 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'ritwickdey.liveserver@1.2.3'.
+(node:60411) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+Installing extension 'ecmel.vscode-html-css'...
+Extension 'ecmel.vscode-html-css' v2.0.14 was successfully installed.

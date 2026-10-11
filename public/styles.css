@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f3f5f8;
+  color: #172033;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  margin: 24px;
+  padding: 40px;
+  max-width: 560px;
+  background: white;
+  border: 1px solid #dce2eb;
+  border-radius: 16px;
+}
+
+.label {
+  color: #3656a3;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: clamp(2rem, 6vw, 3rem);
+}
