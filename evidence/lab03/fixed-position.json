@@ -1,0 +1,15 @@
+{
+  "scrollDistance": 280,
+  "before": {
+    "x": 1295,
+    "y": 600,
+    "width": 130,
+    "height": 150
+  },
+  "after": {
+    "x": 1295,
+    "y": 600,
+    "width": 130,
+    "height": 150
+  }
+}

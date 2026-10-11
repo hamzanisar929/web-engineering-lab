@@ -10,7 +10,8 @@
     "test": "node --test",
     "lint": "eslint .",
     "format": "prettier --check .",
-    "start": "serve public"
+    "start": "serve public",
+    "start:lab3": "serve css-lab --listen 3003"
   },
   "keywords": [],
   "author": "",

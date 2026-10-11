@@ -1,0 +1,12 @@
+PASS Task 1: Blue id box, three red class headings, green external button, blue internal button and pink inline button verified.
+PASS Task 2: Times New Roman is inherited. The demo heading is centred and capitalised by CSS.
+PASS Task 3: All three unit pairs resolve to outer 25px and inner 10px.
+PASS Task 4: Navbar height, colours, logo size, three links and single row Flexbox verified.
+PASS Task 5: Header and footer exist. Three bordered 100px boxes have opacity 0.5 and distinct colours; the last has a 50% radius.
+PASS Task 6: Love Nature sits between paragraphs, loads its background image and keeps identical viewport coordinates after scrolling.
+PASS Task 7: The first child is centred on both axes. The second child uses align-self: flex-end and overrides its parent.
+PASS Task 8: All four colours and the exact boundaries at 300, 400 and 600px verified. No page overflow at the tested widths.
+PASS Task 9: Hover grows the font from 16px to 24px and rotates the button by 5 degrees after its transition.
+PASS Task 10: Circular loader has an 8px border with only its top coloured. The spin animation changes transform and repeats infinitely.
+PASS: reduced motion, search and keyboard skip link.
+Browser errors: 0

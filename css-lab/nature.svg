@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#cde9eb"/><stop offset="1" stop-color="#f1ecd4"/></linearGradient>
+    <linearGradient id="land" x2="0" y2="1"><stop stop-color="#507d65"/><stop offset="1" stop-color="#193b31"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h400v500H0z"/>
+  <circle cx="300" cy="105" r="42" fill="#fbefb5"/>
+  <path d="M-30 290 120 95 270 290Z" fill="#8aaab0"/>
+  <path d="m87 138 33-43 40 52-29-7-13 16-14-15Z" fill="#f1f7f2"/>
+  <path d="m120 320 175-176 155 176Z" fill="#527e7b"/>
+  <path d="m270 169 25-25 34 39-23-6-10 14-10-17Z" fill="#dbe9df"/>
+  <path d="M0 288q130-70 260 15t140-5v202H0Z" fill="url(#land)"/>
+  <path d="M190 330q70 40 20 170h105q-120-85-125-170" fill="#c5b58b"/>
+  <g fill="#214e3e"><path d="m55 190-50 145h100Z"/><path d="m85 280-60 160h120Z"/><path d="m350 220-50 155h100Z"/><path d="m310 320-45 140h90Z"/></g>
+  <g fill="#35634c"><path d="m140 245-36 110h72Z"/><path d="m20 340-50 140h100Z"/></g>
+</svg>

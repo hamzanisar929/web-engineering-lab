@@ -1,0 +1,190 @@
+{
+  "url": "http://127.0.0.1:5500/Lab%203/web-engineering-lab/css-lab/index.html",
+  "tasks": [
+    {
+      "task": 1,
+      "result": "Blue id box, three red class headings, green external button, blue internal button and pink inline button verified."
+    },
+    {
+      "task": 2,
+      "result": "Times New Roman is inherited. The demo heading is centred and capitalised by CSS."
+    },
+    {
+      "task": 3,
+      "result": "All three unit pairs resolve to outer 25px and inner 10px."
+    },
+    {
+      "task": 4,
+      "result": "Navbar height, colours, logo size, three links and single row Flexbox verified."
+    },
+    {
+      "task": 5,
+      "result": "Header and footer exist. Three bordered 100px boxes have opacity 0.5 and distinct colours; the last has a 50% radius."
+    },
+    {
+      "task": 6,
+      "result": "Love Nature sits between paragraphs, loads its background image and keeps identical viewport coordinates after scrolling."
+    },
+    {
+      "task": 7,
+      "result": "The first child is centred on both axes. The second child uses align-self: flex-end and overrides its parent."
+    },
+    {
+      "task": 8,
+      "result": "All four colours and the exact boundaries at 300, 400 and 600px verified. No page overflow at the tested widths."
+    },
+    {
+      "task": 9,
+      "result": "Hover grows the font from 16px to 24px and rotates the button by 5 degrees after its transition."
+    },
+    {
+      "task": 10,
+      "result": "Circular loader has an 8px border with only its top coloured. The spin animation changes transform and repeats infinitely."
+    }
+  ],
+  "units": {
+    "px": {
+      "outer": "25px",
+      "inner": "10px"
+    },
+    "em": {
+      "outer": "25px",
+      "inner": "10px"
+    },
+    "rem": {
+      "outer": "25px",
+      "inner": "10px"
+    }
+  },
+  "navbar": {
+    "height": "60px",
+    "background": "rgb(15, 17, 17)",
+    "display": "flex",
+    "justify": "space-evenly",
+    "align": "center",
+    "wrap": "nowrap",
+    "logoColour": "rgb(240, 136, 4)",
+    "logoSize": "25px",
+    "searchColour": "rgb(240, 136, 4)"
+  },
+  "boxes": [
+    {
+      "width": 100,
+      "height": 100,
+      "border": "2px",
+      "opacity": "0.5",
+      "background": "rgb(255, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "width": 100,
+      "height": 100,
+      "border": "2px",
+      "opacity": "0.5",
+      "background": "rgb(0, 128, 0)",
+      "radius": "0px"
+    },
+    {
+      "width": 100,
+      "height": 100,
+      "border": "2px",
+      "opacity": "0.5",
+      "background": "rgb(0, 0, 255)",
+      "radius": "50%"
+    }
+  ],
+  "banner": {
+    "position": "fixed",
+    "right": "0px",
+    "zIndex": "10",
+    "background": "linear-gradient(rgba(15, 17, 17, 0), rgba(15, 17, 17, 0.7)), url(\"http://127.0.0.1:5500/Lab%203/web-engineering-lab/css-lab/nature.svg\")"
+  },
+  "alignment": {
+    "centreX": 0,
+    "centreY": 0,
+    "alignSelf": "flex-end",
+    "bottomGap": 17
+  },
+  "responsive": [
+    {
+      "width": 280,
+      "expected": "rgb(0, 128, 0)",
+      "actual": "rgb(0, 128, 0)",
+      "pageOverflow": false
+    },
+    {
+      "width": 300,
+      "expected": "rgb(255, 192, 203)",
+      "actual": "rgb(255, 192, 203)",
+      "pageOverflow": false
+    },
+    {
+      "width": 350,
+      "expected": "rgb(255, 192, 203)",
+      "actual": "rgb(255, 192, 203)",
+      "pageOverflow": false
+    },
+    {
+      "width": 399,
+      "expected": "rgb(255, 192, 203)",
+      "actual": "rgb(255, 192, 203)",
+      "pageOverflow": false
+    },
+    {
+      "width": 400,
+      "expected": "rgb(255, 0, 0)",
+      "actual": "rgb(255, 0, 0)",
+      "pageOverflow": false
+    },
+    {
+      "width": 500,
+      "expected": "rgb(255, 0, 0)",
+      "actual": "rgb(255, 0, 0)",
+      "pageOverflow": false
+    },
+    {
+      "width": 599,
+      "expected": "rgb(255, 0, 0)",
+      "actual": "rgb(255, 0, 0)",
+      "pageOverflow": false
+    },
+    {
+      "width": 600,
+      "expected": "rgb(0, 0, 255)",
+      "actual": "rgb(0, 0, 255)",
+      "pageOverflow": false
+    },
+    {
+      "width": 800,
+      "expected": "rgb(0, 0, 255)",
+      "actual": "rgb(0, 0, 255)",
+      "pageOverflow": false
+    }
+  ],
+  "transition": {
+    "before": {
+      "font": "16px",
+      "transform": "none"
+    },
+    "after": {
+      "font": "24px",
+      "transform": "matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0)",
+      "transition": "font-size, transform"
+    },
+    "rotationDegrees": 4.999996052434918
+  },
+  "loader": {
+    "name": "spin",
+    "iterations": "infinite",
+    "border": "8px",
+    "top": "rgb(23, 55, 75)",
+    "right": "rgba(0, 0, 0, 0)",
+    "bottom": "rgba(0, 0, 0, 0)",
+    "left": "rgba(0, 0, 0, 0)",
+    "radius": "50%"
+  },
+  "reducedMotion": "PASS",
+  "search": "PASS",
+  "skipLink": "PASS",
+  "consoleErrors": []
+}

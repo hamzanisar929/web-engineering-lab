@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Muhammad Hamza's Web Engineering Lab 03 exercises on CSS fundamentals."
+    />
+    <title>Lab 03 | CSS Fundamentals | Muhammad Hamza</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .internal-button {
+        background-color: blue;
+        color: white;
+      }
+    </style>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+      <div class="navbar-scroll">
+        <nav class="navbar" aria-label="Main navigation">
+          <a href="#overview" class="logo">CSS Lab</a>
+          <ul>
+            <li><a href="#overview">Home</a></li>
+            <li><a href="#exercises">Exercises</a></li>
+            <li><a href="#results">Results</a></li>
+          </ul>
+          <form id="search-form" class="search-form">
+            <label for="search" class="visually-hidden">Search exercises</label>
+            <input
+              type="search"
+              id="search"
+              name="search"
+              placeholder="Find an exercise"
+              required
+            />
+            <button type="submit">Search</button>
+          </form>
+        </nav>
+      </div>
+      <div class="intro content-width" id="overview">
+        <p class="eyebrow">CASE Islamabad · Web Engineering · Lab 03</p>
+        <h1 class="capitalised-heading">
+          css fundamentals: styling, layout and animation
+        </h1>
+        <p class="subtitle">Muhammad Hamza · 2330-0068 · 11 October 2026</p>
+        <p>
+          Ten exercises in colours, spacing, layout and motion. Each example is
+          styled with CSS and can be inspected in the browser.
+        </p>
+        <p id="search-status" role="status"></p>
+      </div>
+    </header>
+
+    <main id="main-content" class="content-width" tabindex="-1">
+      <div id="exercises">
+        <section class="exercise" id="task-1">
+          <p class="eyebrow">Task 1 / Selectors and stylesheets</p>
+          <h2 tabindex="-1">Colours from three sources</h2>
+          <p>
+            The blue box uses an id selector. The three red headings share one
+            class. The buttons use external, internal and inline CSS.
+          </p>
+          <div class="example-row colour-demo">
+            <div id="box">#box<br />Blue background</div>
+            <div class="heading-samples">
+              <h1 class="heading">Shared class: h1</h1>
+              <h2 class="heading">Shared class: h2</h2>
+              <h3 class="heading">Shared class: h3</h3>
+            </div>
+          </div>
+          <div class="example-row button-examples">
+            <button type="button" class="external-button">
+              External CSS: green
+            </button>
+            <button type="button" class="internal-button">
+              Internal CSS: blue
+            </button>
+            <button
+              type="button"
+              style="background-color: pink; color: #0f1111"
+            >
+              Inline CSS: pink
+            </button>
+          </div>
+        </section>
+
+        <section class="exercise" id="task-2">
+          <p class="eyebrow">Task 2 / Text properties</p>
+          <h2 tabindex="-1">Centred and capitalised text</h2>
+          <h3 class="capitalised-heading">
+            learning css one property at a time
+          </h3>
+          <p>
+            The heading source is lowercase. CSS capitalises each word and
+            centres the text. The whole document uses Times New Roman.
+          </p>
+          <p class="property-note">
+            text-align: center; text-transform: capitalize; font-family: "Times
+            New Roman";
+          </p>
+        </section>
+
+        <section class="exercise" id="task-3">
+          <p class="eyebrow">Task 3 / Absolute and relative units</p>
+          <h2 tabindex="-1">The same sizes, three ways</h2>
+          <p>
+            The root font size is 16px. Every outer box below has 25px text and
+            every inner box has 10px text.
+          </p>
+          <div class="unit-examples">
+            <div class="unit-card">
+              <h3>Pixels</h3>
+              <div class="outer outer-px">
+                Outer: 25px
+                <div class="inner inner-px">Inner: 10px</div>
+              </div>
+            </div>
+            <div class="unit-card">
+              <h3>em</h3>
+              <div class="outer outer-em">
+                Outer: 1.5625em
+                <div class="inner inner-em">Inner: 0.4em</div>
+              </div>
+            </div>
+            <div class="unit-card">
+              <h3>rem</h3>
+              <div class="outer outer-rem">
+                Outer: 1.5625rem
+                <div class="inner inner-rem">Inner: 0.625rem</div>
+              </div>
+            </div>
+          </div>
+          <p>
+            <strong>em</strong> uses the parent font size when setting
+            font-size. The inner em value is 0.4 × 25px = 10px.
+            <strong>rem</strong> uses the root font size, so 0.625 × 16px = 10px
+            regardless of the outer size. Pixel values are fixed.
+          </p>
+        </section>
+
+        <section class="exercise" id="task-4">
+          <p class="eyebrow">Task 4 / Navigation with Flexbox</p>
+          <h2 tabindex="-1">A single row navbar</h2>
+          <p>
+            The navbar in the header is 60px high. Flexbox spaces the logo,
+            three links and search form evenly on one line. On narrow screens,
+            the navbar can be scrolled horizontally.
+          </p>
+          <div class="specifications">
+            <p><strong>Background</strong><br />#0f1111</p>
+            <p><strong>Logo</strong><br />#f08804 · 25px</p>
+            <p><strong>Search button</strong><br />#f08804</p>
+            <p><strong>Layout</strong><br />space-evenly · center</p>
+          </div>
+        </section>
+
+        <section class="exercise" id="task-5">
+          <p class="eyebrow">Task 5 / Box model and page layout</p>
+          <h2 tabindex="-1">Three boxes inside the content area</h2>
+          <p>
+            The page has a header, main content and footer. Each box below is
+            100px square with a border and a different background colour.
+            Opacity is 0.5, and the last box is a circle.
+          </p>
+          <div class="box-examples">
+            <div class="layout-box box-one">Square 1</div>
+            <div class="layout-box box-two">Square 2</div>
+            <div class="layout-box box-three">Circle</div>
+          </div>
+          <p class="property-note">
+            width: 100px; height: 100px; border: 2px solid; opacity: 0.5;
+          </p>
+        </section>
+
+        <section class="exercise" id="task-6">
+          <p class="eyebrow">Task 6 / Fixed positioning</p>
+          <h2 tabindex="-1">Love Nature stays in place</h2>
+          <p>
+            A quiet trail winds through the forest. Beyond the trees, the
+            mountains rise into a pale morning sky. This paragraph provides text
+            before the fixed example.
+          </p>
+          <div class="nature-banner">Love Nature</div>
+          <p>
+            Scroll through the exercises and notice the nature banner at the
+            right edge. It stays in the same viewport position because it uses
+            position: fixed. Its z-index keeps it above the page content.
+          </p>
+          <p class="property-note">
+            position: fixed; right: 0; z-index: 10; background-size: cover;
+          </p>
+        </section>
+
+        <section class="exercise" id="task-7">
+          <p class="eyebrow">Task 7 / Flexbox alignment</p>
+          <h2 tabindex="-1">Centre a box, then override its alignment</h2>
+          <div class="flex-examples">
+            <figure>
+              <div class="centering-parent">
+                <div class="centered-child">Centred</div>
+              </div>
+              <figcaption>
+                justify-content: center and align-items: center.
+              </figcaption>
+            </figure>
+            <figure>
+              <div class="centering-parent override-parent">
+                <div class="centered-child override-child">align-self</div>
+              </div>
+              <figcaption>
+                align-self: flex-end overrides align-items: center.
+              </figcaption>
+            </figure>
+          </div>
+          <p>
+            <strong>Priority:</strong> align-self on an individual item
+            overrides align-items on its parent for that item. The main axis
+            remains centred by justify-content.
+          </p>
+        </section>
+
+        <section class="exercise" id="task-8">
+          <p class="eyebrow">Task 8 / Responsive media queries</p>
+          <h2 tabindex="-1">A colour for each viewport range</h2>
+          <p>
+            Resize the browser to see the box change colour. The exact boundary
+            values use the next range: 300px is pink, 400px is red and 600px is
+            blue.
+          </p>
+          <div class="responsive-box"><span>Resize the viewport</span></div>
+          <div class="range-legend">
+            <p><strong>Below 300px</strong><br />Green</p>
+            <p><strong>300px to below 400px</strong><br />Pink</p>
+            <p><strong>400px to below 600px</strong><br />Red</p>
+            <p><strong>600px and above</strong><br />Blue</p>
+          </div>
+        </section>
+
+        <section class="exercise" id="task-9">
+          <p class="eyebrow">Task 9 / Transition and transform</p>
+          <h2 tabindex="-1">Grow and rotate on hover</h2>
+          <p>
+            Hover over the button or focus it with the keyboard. Its font size
+            grows from 16px to 24px and it rotates by five degrees.
+          </p>
+          <div class="motion-stage">
+            <button type="button" class="transition-button">
+              Hover or focus me
+            </button>
+          </div>
+          <p class="property-note">
+            transition: font-size 0.4s ease, transform 0.4s ease;
+          </p>
+        </section>
+
+        <section class="exercise" id="task-10">
+          <p class="eyebrow">Task 10 / Keyframe animation</p>
+          <h2 tabindex="-1">A spinning circular loader</h2>
+          <p>
+            Only the top border is coloured. A keyframe animation rotates the
+            circle from 0 to 360 degrees and repeats infinitely.
+          </p>
+          <div class="loader-stage">
+            <div class="loader" aria-hidden="true"></div>
+            <p>CSS animation demonstration</p>
+          </div>
+          <p>
+            The transition and loader respect the browser's reduced motion
+            preference.
+          </p>
+        </section>
+      </div>
+      <section class="results" id="results">
+        <h2>Lab results</h2>
+        <p>
+          All ten exercises are included. Inspect index.html and style.css to
+          see the rules, and check the saved browser evidence in the repository.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="content-width">
+        <p><strong>Muhammad Hamza · 2330-0068</strong></p>
+        <p>
+          Web Engineering · Lab 03 · Sir Syed CASE Institute of Technology,
+          Islamabad
+        </p>
+        <address>
+          For questions about the exercises, contact your instructor.
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
