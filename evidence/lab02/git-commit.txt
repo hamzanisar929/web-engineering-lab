@@ -1,0 +1,31 @@
+[main 42dda18] Complete Lab 02 semantic HTML and accessibility checks
+ 34 files changed, 18394 insertions(+), 52 deletions(-)
+ create mode 100644 evidence/lab02/accessibility-tree.json
+ create mode 100644 evidence/lab02/axe-devtools-summary.txt
+ create mode 100644 evidence/lab02/axe-devtools.png
+ create mode 100644 evidence/lab02/axe-results.json
+ create mode 100644 evidence/lab02/axe-summary.txt
+ create mode 100644 evidence/lab02/browser-checks.txt
+ create mode 100644 evidence/lab02/feedback-form.png
+ create mode 100644 evidence/lab02/format-fixes.txt
+ create mode 100644 evidence/lab02/format.txt
+ create mode 100644 evidence/lab02/keyboard-checks.json
+ create mode 100644 evidence/lab02/keyboard-summary.txt
+ create mode 100644 evidence/lab02/lab-status.md
+ create mode 100644 evidence/lab02/lighthouse-accessibility.png
+ create mode 100644 evidence/lab02/lighthouse-devtools-summary.txt
+ create mode 100644 evidence/lab02/lighthouse-devtools.png
+ create mode 100644 evidence/lab02/lighthouse-run.txt
+ create mode 100644 evidence/lab02/lighthouse-summary.txt
+ create mode 100644 evidence/lab02/lighthouse.report.html
+ create mode 100644 evidence/lab02/lighthouse.report.json
+ create mode 100644 evidence/lab02/lint.txt
+ create mode 100644 evidence/lab02/native-audits.txt
+ create mode 100644 evidence/lab02/office-hours.png
+ create mode 100644 evidence/lab02/page-desktop.png
+ create mode 100644 evidence/lab02/page-header.png
+ create mode 100644 evidence/lab02/page-mobile.png
+ create mode 100644 evidence/lab02/semantic-checks.json
+ create mode 100644 evidence/lab02/server.txt
+ create mode 100644 evidence/lab02/skip-link-focus.png
+ create mode 100644 evidence/lab02/tests.txt

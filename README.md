@@ -20,6 +20,11 @@ Open http://localhost:3000 or open `public/index.html` with VS Code Live Server.
 The skip link appears when focused. Navigation identifies the section in view.
 Name, email and message are required. The email hint is associated with its field.
 
+## Report
+
+[Lab 02 PDF](<reports/Muhammad Hamza Lab 02.pdf>) contains the task questions,
+results, screenshots and submission evidence.
+
 ## Evidence
 
 Lab 02 evidence is saved in `evidence/lab02/`. It includes the page screenshots,

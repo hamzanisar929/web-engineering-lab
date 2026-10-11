@@ -1,0 +1,120 @@
+{
+  "decorative": {
+    "nodes": [
+      {
+        "nodeId": "119",
+        "ignored": true,
+        "ignoredReasons": [
+          {
+            "name": "ariaHiddenElement",
+            "value": {
+              "type": "boolean",
+              "value": true
+            }
+          }
+        ],
+        "role": {
+          "type": "role",
+          "value": "none"
+        },
+        "chromeRole": {
+          "type": "internalRole",
+          "value": 0
+        },
+        "parentId": "82",
+        "childIds": [],
+        "backendDOMNodeId": 119
+      }
+    ]
+  },
+  "informative": {
+    "nodeId": "88",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "image"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 99
+    },
+    "name": {
+      "type": "computedString",
+      "value": "Location pin",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "value": {
+            "type": "computedString",
+            "value": "Location pin"
+          },
+          "attribute": "aria-labelledby",
+          "attributeValue": {
+            "type": "idrefList",
+            "value": "pin-title",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 89,
+                "idref": "pin-title",
+                "text": "Location pin"
+              }
+            ]
+          }
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label",
+          "superseded": true
+        },
+        {
+          "type": "relatedElement",
+          "value": {
+            "type": "computedString",
+            "value": "Location pin"
+          },
+          "superseded": true,
+          "nativeSource": "title",
+          "nativeSourceValue": {
+            "type": "nodeList",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 89,
+                "idref": "pin-title",
+                "text": "Location pin"
+              }
+            ]
+          }
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "description": {
+      "type": "computedString",
+      "value": "Location pin"
+    },
+    "properties": [
+      {
+        "name": "labelledby",
+        "value": {
+          "type": "nodeList",
+          "relatedNodes": [
+            {
+              "backendDOMNodeId": 89,
+              "idref": "pin-title",
+              "text": "Location pin"
+            }
+          ]
+        }
+      }
+    ],
+    "parentId": "87",
+    "childIds": [
+      "89"
+    ],
+    "backendDOMNodeId": 88
+  }
+}
